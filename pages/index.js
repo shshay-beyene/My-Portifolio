@@ -23,9 +23,6 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left */}
             <div className="animate-slide-up">
-              <div className="mb-6 flex items-center gap-4">
-                <img src={user.avatar} alt={user.name} className="w-28 h-28 rounded-full object-cover" />
-              </div>
               <div className="inline-block px-4 py-2 bg-primary/10 dark:bg-primary/20 rounded-full text-primary font-medium text-sm mb-6">
                 👋 Welcome to my portfolio
               </div>

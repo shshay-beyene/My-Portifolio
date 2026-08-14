@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { user } from '../data/data'
 import { useRouter } from 'next/router'
 import { FaBars, FaTimes, FaMoon, FaSun } from 'react-icons/fa'
 import Button from './Button'
@@ -46,11 +47,11 @@ export default function Header() {
       <nav className="container-custom">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
-          <Link 
-            href="/" 
-            className="text-2xl md:text-3xl font-black tracking-tight"
-          >
-            <span className="text-primary">S</span>B
+          <Link href="/" className="flex items-center gap-3">
+            <img src={user.avatar} alt={user.name} className="w-10 h-10 rounded-full object-cover" />
+            <span className="text-2xl md:text-3xl font-black tracking-tight">
+              <span className="text-primary">S</span>B
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

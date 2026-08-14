@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Layout from '../components/Layout'
 import Button from '../components/Button'
-import { user } from '../data/data'
+import { user, socials } from '../data/data'
 import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaGithub, FaLinkedinIn, FaTwitter, FaFacebookF, FaInstagram } from 'react-icons/fa'
 
 export default function Contact() {
@@ -75,26 +75,26 @@ export default function Contact() {
               <div className="pt-4">
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">Connect with me</p>
                 <div className="flex gap-3">
-                  <a href="https://github.com/shshay-beyene" target="_blank" rel="noopener" 
-                     className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                    <FaGithub className="text-xl" />
-                  </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener"
-                     className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                    <FaLinkedinIn className="text-xl" />
-                  </a>
-                  <a href="https://twitter.com/@ShshayBeyene" target="_blank" rel="noopener"
-                     className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                    <FaTwitter className="text-xl" />
-                  </a>
-                  <a href="https://web.facebook.com/sisco.be.85" target="_blank" rel="noopener"
-                     className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                    <FaFacebookF className="text-xl" />
-                  </a>
-                  <a href="https://www.instagram.com/sisco.be.85" target="_blank" rel="noopener"
-                     className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                    <FaInstagram className="text-xl" />
-                  </a>
+                    <a href={socials.github} target="_blank" rel="noopener noreferrer" 
+                       className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+                      <FaGithub className="text-xl" />
+                    </a>
+                    <a href={socials.linkedin} target="_blank" rel="noopener noreferrer"
+                       className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+                      <FaLinkedinIn className="text-xl" />
+                    </a>
+                    <a href={socials.twitter} target="_blank" rel="noopener noreferrer"
+                       className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+                      <FaTwitter className="text-xl" />
+                    </a>
+                    <a href={socials.facebook} target="_blank" rel="noopener noreferrer"
+                       className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+                      <FaFacebookF className="text-xl" />
+                    </a>
+                    <a href={socials.instagram} target="_blank" rel="noopener noreferrer"
+                       className="w-12 h-12 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+                      <FaInstagram className="text-xl" />
+                    </a>
                 </div>
               </div>
             </div>

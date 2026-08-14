@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { FaGithub, FaLinkedinIn, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa'
-import { socials } from '../data/data'
+import { socials, user } from '../data/data'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -11,8 +11,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="text-2xl font-black">
-              <span className="text-primary">S</span>B
+            <Link href="/" className="flex items-center gap-3">
+              <img src={user.avatar} alt={user.name} className="w-10 h-10 rounded-full object-cover" />
+              <span className="text-2xl font-black">
+                <span className="text-primary">S</span>B
+              </span>
             </Link>
             <p className="text-gray-600 dark:text-gray-400 mt-2 max-w-sm">
               Building exceptional digital experiences with clean code and thoughtful design.

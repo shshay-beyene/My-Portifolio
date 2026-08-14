@@ -35,7 +35,7 @@ export const projects = [
     image: "/images/project1.jpg",
     tags: ["Next.js", "OpenAI", "Tailwind", "Prisma"],
     demo: "https://demo.com",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/shshay-beyene/My-Portifolio",
     featured: true,
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
     image: "/images/project2.jpg",
     tags: ["React", "D3.js", "Firebase", "Styled Components"],
     demo: "https://demo.com",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/shshay-beyene/My-Portifolio",
     featured: true,
   },
   {
@@ -55,7 +55,7 @@ export const projects = [
     image: "/images/project3.jpg",
     tags: ["React Native", "Node.js", "MongoDB", "JWT"],
     demo: "https://demo.com",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/shshay-beyene/My-Portifolio",
     featured: true,
   },
   {
@@ -65,7 +65,7 @@ export const projects = [
     image: "/images/project4.jpg",
     tags: ["Next.js", "Tailwind", "Framer Motion", "Sanity"],
     demo: "https://demo.com",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/shshay-beyene/My-Portifolio",
     featured: false,
   },
   {
@@ -75,7 +75,7 @@ export const projects = [
     image: "/images/project5.jpg",
     tags: ["React", "Chart.js", "Express", "PostgreSQL"],
     demo: "https://demo.com",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/shshay-beyene/My-Portifolio",
     featured: false,
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     image: "/images/project6.jpg",
     tags: ["Next.js", "Tailwind", "Supabase", "OpenAI"],
     demo: "https://demo.com",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/shshay-beyene/My-Portifolio",
     featured: false,
   },
 ]

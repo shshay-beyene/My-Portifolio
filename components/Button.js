@@ -28,8 +28,10 @@ export default function Button({
 
   if (href) {
     return (
-      <Link href={href} className={classes} target={target} rel={rel}>
-        {children}
+      <Link href={href} legacyBehavior>
+        <a className={classes} target={target} rel={rel}>
+          {children}
+        </a>
       </Link>
     )
   }

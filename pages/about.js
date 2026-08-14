@@ -106,9 +106,6 @@ export default function About() {
             <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-md sticky top-24">
               <h2 className="text-2xl font-bold mb-6">Quick Info</h2>
               <div className="space-y-4">
-                <div className="flex justify-center">
-                  <img src={user.avatar} alt={user.name} className="w-32 h-32 rounded-full object-cover mb-4" />
-                </div>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-400">Location</p>
                   <p className="font-medium">{user.location}</p>
